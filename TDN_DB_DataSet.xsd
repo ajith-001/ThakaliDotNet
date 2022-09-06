@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TDN_DB_DataSet" targetNamespace="http://tempuri.org/TDN_DB_DataSet.xsd" xmlns:mstns="http://tempuri.org/TDN_DB_DataSet.xsd" xmlns="http://tempuri.org/TDN_DB_DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="TDN_DBConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="TDN_DBConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.ThakaliDotNet.Properties.Settings.GlobalReference.Default.TDN_DBConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TDN_DB_DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="TDN_DB_DataSet" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="TDN_DB_DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="EmpData" msprop:Generator_RowEvHandlerName="EmpDataRowChangeEventHandler" msprop:Generator_RowDeletedName="EmpDataRowDeleted" msprop:Generator_RowDeletingName="EmpDataRowDeleting" msprop:Generator_RowEvArgName="EmpDataRowChangeEvent" msprop:Generator_TablePropName="EmpData" msprop:Generator_RowChangedName="EmpDataRowChanged" msprop:Generator_RowChangingName="EmpDataRowChanging" msprop:Generator_TableClassName="EmpDataDataTable" msprop:Generator_RowClassName="EmpDataRow" msprop:Generator_TableVarName="tableEmpData" msprop:Generator_UserTableName="EmpData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="EmpID" msprop:Generator_ColumnPropNameInRow="EmpID" msprop:Generator_ColumnPropNameInTable="EmpIDColumn" msprop:Generator_ColumnVarNameInTable="columnEmpID" msprop:Generator_UserColumnName="EmpID" type="xs:string" />
+              <xs:element name="EmpName" msdata:Caption="DataColumn1" msprop:Generator_ColumnPropNameInRow="EmpName" msprop:Generator_ColumnPropNameInTable="EmpNameColumn" msprop:Generator_ColumnVarNameInTable="columnEmpName" msprop:Generator_UserColumnName="EmpName" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpPassword" msprop:Generator_ColumnPropNameInRow="EmpPassword" msprop:Generator_ColumnPropNameInTable="EmpPasswordColumn" msprop:Generator_ColumnVarNameInTable="columnEmpPassword" msprop:Generator_UserColumnName="EmpPassword" type="xs:string" />
+              <xs:element name="EmpEmail" msprop:Generator_ColumnPropNameInRow="EmpEmail" msprop:Generator_ColumnPropNameInTable="EmpEmailColumn" msprop:Generator_ColumnVarNameInTable="columnEmpEmail" msprop:Generator_UserColumnName="EmpEmail" type="xs:string" />
+              <xs:element name="EmpContact" msprop:Generator_ColumnPropNameInRow="EmpContact" msprop:Generator_ColumnPropNameInTable="EmpContactColumn" msprop:Generator_ColumnVarNameInTable="columnEmpContact" msprop:Generator_UserColumnName="EmpContact" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpDesignation" msprop:Generator_ColumnPropNameInRow="EmpDesignation" msprop:Generator_ColumnPropNameInTable="EmpDesignationColumn" msprop:Generator_ColumnVarNameInTable="columnEmpDesignation" msprop:Generator_UserColumnName="EmpDesignation" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpDept" msprop:Generator_ColumnPropNameInRow="EmpDept" msprop:Generator_ColumnPropNameInTable="EmpDeptColumn" msprop:Generator_ColumnVarNameInTable="columnEmpDept" msprop:Generator_UserColumnName="EmpDept" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EmpDOB" msprop:Generator_ColumnPropNameInRow="EmpDOB" msprop:Generator_ColumnPropNameInTable="EmpDOBColumn" msprop:Generator_ColumnVarNameInTable="columnEmpDOB" msprop:Generator_UserColumnName="EmpDOB" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpBloodGrp" msprop:Generator_ColumnPropNameInRow="EmpBloodGrp" msprop:Generator_ColumnPropNameInTable="EmpBloodGrpColumn" msprop:Generator_ColumnVarNameInTable="columnEmpBloodGrp" msprop:Generator_UserColumnName="EmpBloodGrp" type="xs:string" minOccurs="0" />
+              <xs:element name="EmpEducation" msprop:Generator_ColumnPropNameInRow="EmpEducation" msprop:Generator_ColumnPropNameInTable="EmpEducationColumn" msprop:Generator_ColumnVarNameInTable="columnEmpEducation" msprop:Generator_UserColumnName="EmpEducation" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="CredentialsKey1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:EmpData" />
+      <xs:field xpath="mstns:EmpID" />
+    </xs:unique>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:EmpData" />
+      <xs:field xpath="mstns:EmpEmail" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

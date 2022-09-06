@@ -27,7 +27,6 @@ namespace ThakaliDotNet
             lbl_SignInPassword.Visible = false;
             lbl_SignInUserName.Visible = false;
             lbl_RegisterUserName.Visible = false;
-
         }
 
         private void btnSignIn_Click(object sender, EventArgs e)

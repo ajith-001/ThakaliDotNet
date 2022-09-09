@@ -59,5 +59,25 @@ namespace ThakaliDotNet.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap greg_rosenke_6QnEf_b47eA_unsplash__2_ {
+            get {
+                object obj = ResourceManager.GetObject("greg-rosenke-6QnEf_b47eA-unsplash (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap greg_rosenke_6QnEf_b47eA_unsplash__3_ {
+            get {
+                object obj = ResourceManager.GetObject("greg-rosenke-6QnEf_b47eA-unsplash (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

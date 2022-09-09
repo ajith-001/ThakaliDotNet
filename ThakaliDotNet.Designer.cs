@@ -29,22 +29,25 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ThakaliDotNet_Form));
-            this.lbl_SignInUserName = new System.Windows.Forms.Label();
+            this.lbl_SignInEmpID = new System.Windows.Forms.Label();
             this.btnRegister = new System.Windows.Forms.Button();
             this.btnSignIn = new System.Windows.Forms.Button();
             this.lbl_RegisterUserName = new System.Windows.Forms.Label();
             this.lbl_SignInPassword = new System.Windows.Forms.Label();
             this.txt_SignInPassword = new System.Windows.Forms.TextBox();
-            this.txt_SignInUserName = new System.Windows.Forms.TextBox();
+            this.txt_SignInEmpID = new System.Windows.Forms.TextBox();
             this.btn_Login = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // lbl_SignInUserName
+            // lbl_SignInEmpID
             // 
-            this.lbl_SignInUserName.BackColor = System.Drawing.Color.Aqua;
-            resources.ApplyResources(this.lbl_SignInUserName, "lbl_SignInUserName");
-            this.lbl_SignInUserName.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.lbl_SignInUserName.Name = "lbl_SignInUserName";
+            this.lbl_SignInEmpID.BackColor = System.Drawing.Color.Aqua;
+            resources.ApplyResources(this.lbl_SignInEmpID, "lbl_SignInEmpID");
+            this.lbl_SignInEmpID.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.lbl_SignInEmpID.Name = "lbl_SignInEmpID";
+            this.lbl_SignInEmpID.UseWaitCursor = true;
             // 
             // btnRegister
             // 
@@ -83,11 +86,11 @@
             resources.ApplyResources(this.txt_SignInPassword, "txt_SignInPassword");
             this.txt_SignInPassword.Name = "txt_SignInPassword";
             // 
-            // txt_SignInUserName
+            // txt_SignInEmpID
             // 
-            this.txt_SignInUserName.BackColor = System.Drawing.SystemColors.ScrollBar;
-            resources.ApplyResources(this.txt_SignInUserName, "txt_SignInUserName");
-            this.txt_SignInUserName.Name = "txt_SignInUserName";
+            this.txt_SignInEmpID.BackColor = System.Drawing.SystemColors.ScrollBar;
+            resources.ApplyResources(this.txt_SignInEmpID, "txt_SignInEmpID");
+            this.txt_SignInEmpID.Name = "txt_SignInEmpID";
             // 
             // btn_Login
             // 
@@ -96,24 +99,34 @@
             this.btn_Login.ForeColor = System.Drawing.Color.Black;
             this.btn_Login.Name = "btn_Login";
             this.btn_Login.UseVisualStyleBackColor = false;
+            this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
+            // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::ThakaliDotNet.Properties.Resources.greg_rosenke_6QnEf_b47eA_unsplash__2_;
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // ThakaliDotNet_Form
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.Controls.Add(this.txt_SignInUserName);
+            this.Controls.Add(this.txt_SignInEmpID);
             this.Controls.Add(this.txt_SignInPassword);
             this.Controls.Add(this.lbl_RegisterUserName);
             this.Controls.Add(this.lbl_SignInPassword);
-            this.Controls.Add(this.lbl_SignInUserName);
+            this.Controls.Add(this.lbl_SignInEmpID);
             this.Controls.Add(this.btn_Login);
             this.Controls.Add(this.btnSignIn);
             this.Controls.Add(this.btnRegister);
+            this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "ThakaliDotNet_Form";
             this.Load += new System.EventHandler(this.ThakaliDotNet_Form_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,14 +134,15 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lbl_SignInUserName;
+        private System.Windows.Forms.Label lbl_SignInEmpID;
         private System.Windows.Forms.Button btnRegister;
         private System.Windows.Forms.Button btnSignIn;
         private System.Windows.Forms.Label lbl_RegisterUserName;
         private System.Windows.Forms.Label lbl_SignInPassword;
         private System.Windows.Forms.TextBox txt_SignInPassword;
-        private System.Windows.Forms.TextBox txt_SignInUserName;
+        private System.Windows.Forms.TextBox txt_SignInEmpID;
         private System.Windows.Forms.Button btn_Login;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

@@ -118,43 +118,49 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lbl_SignInUserName.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="lbl_SignInEmpID.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 11.25pt, style=Bold</value>
   </data>
-  <data name="lbl_SignInUserName.Location" type="System.Drawing.Point, System.Drawing">
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbl_SignInEmpID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbl_SignInEmpID.Location" type="System.Drawing.Point, System.Drawing">
     <value>249, 210</value>
   </data>
-  <data name="lbl_SignInUserName.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="lbl_SignInEmpID.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 20</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lbl_SignInUserName.TabIndex" type="System.Int32, mscorlib">
+  <data name="lbl_SignInEmpID.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="lbl_SignInUserName.Text" xml:space="preserve">
-    <value>Username</value>
+  <data name="lbl_SignInEmpID.Text" xml:space="preserve">
+    <value>EmpIoyee Id</value>
   </data>
-  <data name="lbl_SignInUserName.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+  <data name="lbl_SignInEmpID.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>
   </data>
-  <data name="&gt;&gt;lbl_SignInUserName.Name" xml:space="preserve">
-    <value>lbl_SignInUserName</value>
+  <data name="&gt;&gt;lbl_SignInEmpID.Name" xml:space="preserve">
+    <value>lbl_SignInEmpID</value>
   </data>
-  <data name="&gt;&gt;lbl_SignInUserName.Type" xml:space="preserve">
+  <data name="&gt;&gt;lbl_SignInEmpID.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;lbl_SignInUserName.Parent" xml:space="preserve">
+  <data name="&gt;&gt;lbl_SignInEmpID.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;lbl_SignInUserName.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;lbl_SignInEmpID.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnRegister.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Center</value>
   </data>
   <data name="btnRegister.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 12pt, style=Bold</value>
+  </data>
+  <data name="btnRegister.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="btnRegister.Location" type="System.Drawing.Point, System.Drawing">
     <value>370, 300</value>
@@ -306,28 +312,28 @@
   <data name="&gt;&gt;txt_SignInPassword.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="txt_SignInUserName.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txt_SignInEmpID.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 9.75pt, style=Bold</value>
   </data>
-  <data name="txt_SignInUserName.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txt_SignInEmpID.Location" type="System.Drawing.Point, System.Drawing">
     <value>370, 209</value>
   </data>
-  <data name="txt_SignInUserName.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txt_SignInEmpID.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 25</value>
   </data>
-  <data name="txt_SignInUserName.TabIndex" type="System.Int32, mscorlib">
+  <data name="txt_SignInEmpID.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;txt_SignInUserName.Name" xml:space="preserve">
-    <value>txt_SignInUserName</value>
+  <data name="&gt;&gt;txt_SignInEmpID.Name" xml:space="preserve">
+    <value>txt_SignInEmpID</value>
   </data>
-  <data name="&gt;&gt;txt_SignInUserName.Type" xml:space="preserve">
+  <data name="&gt;&gt;txt_SignInEmpID.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txt_SignInUserName.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txt_SignInEmpID.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;txt_SignInUserName.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txt_SignInEmpID.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="btn_Login.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
@@ -362,6 +368,36 @@
   </data>
   <data name="&gt;&gt;btn_Login.ZOrder" xml:space="preserve">
     <value>5</value>
+  </data>
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>900, 600</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -6633,6 +6669,9 @@
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAA=
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
